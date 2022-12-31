@@ -1,0 +1,71 @@
+Q1. What is Emmet ? 
+
+Emmet is a plug-in built for various languages which helps developers write
+code quickly. (They speed up the process)
+For eg: using ! (exclamation symbol) at the start of blank HTML page will 
+result in pre-loaded boiler plate code written for us. This ! symbol usage is
+called Emmet abbrevation and more such can be found here.
+https://docs.emmet.io/cheat-sheet/
+
+
+Q2. Difference between a Library and Framework ? 
+
+Library and Framework both are user-written code but the major difference lies
+in the controlability they offer. 
+
+Library offers extensive control to the developer, for example using of 
+jQuery and methods provided by jQuery. A library can be included in our code
+using CDN (other methods can be found on the site).
+
+A Framework on the other hand lays out the code for developer which they must
+modify according to their requirment. Framework follows a concept of Inversion 
+of Control (IoC).
+
+Note: React is a library.
+
+
+Q3. What is CDN ? Why do we use it.
+
+CDN refers to Content Delivery Network. The Content which we wish to use
+is available on the network. In order to use that content, the developers 
+use the link provided in the docs and paste it in the appropriate place in 
+our code making the content available in our system without locally 
+downloading all the resources.
+
+Using CDN links is a very fast way to incorporate the resources which we 
+wish to use in our code.
+
+
+Q4. Why is React known as React?
+
+When the data changes the front-end view also must change (or REACT) according 
+to it and hence maybe called as React.
+
+
+Q5. What is crossorigin in script tag ?
+
+It is a attribute which is used to tell the mode of request. By writing crossorigin in 
+<script> tag, the code wants resources like images, style sheets etc from other domain.
+These are known as CORS (crossorigin-request).
+
+Q6. What is difference between React and ReactDOM ?
+
+React is the core library which is used to create views whereas ReactDOM is the
+one responsible for rendering the UI which we created using React library. Both of them 
+must be included before starting our main javaScript.
+
+Q7. What is difference between react.development.js and react.production.js files via CDN? 
+
+The development files are slow compared to production files as production files have
+minified code. It results in faster execution of our code and client side files will
+be production files.
+
+Q8. What is async and defer ?
+
+They are attributes used with script tag. When async attribute is used inside script tag
+then the browser loads the HTML and once the script is available to execute then its 
+execution will take place. The script can execute even before the entire HTML is execute.
+The defer tag allows the browser to completely load the HTML code before executing the 
+js code inside the script tag.
+
+Note :- Both async and defer will only work if script tag has `src` attribute.
